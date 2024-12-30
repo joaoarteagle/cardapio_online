@@ -1,4 +1,4 @@
-import Sections from "./sections.component";
+import Sections from "../items/sections.component";
 import Item from "../items/items.component";
 import Sub_Section from "./sub_sections.component";
 

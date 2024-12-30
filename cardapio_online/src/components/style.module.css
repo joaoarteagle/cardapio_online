@@ -1,15 +1,18 @@
-
-.nomeProduto{
-    font-family: 'Open Sans' ;
-    text-decoration: underline;
-    width: 45vw;
-    max-width: 45vw;
-    font-weight: bold;
+.nomeSection{
+    font-family: 'Stint Ultra Condensed', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: #deb503;
 }
 
-.sections{
-    height: 100vh;
-    background-color: aquamarine;
+.nomeItem{
+    font-family: "Open Sans", serif;
+    background-color: #fd0a07;
+    width: 45vw;
+    max-width: 45vw;
+    font-weight: 700;
+    
 }
 
 .descricao{
@@ -20,9 +23,9 @@
 .item{
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5px 15px;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 10px 15px;
     height: 10vh;
 }
 
@@ -32,12 +35,17 @@
 
 .nomeItemPreco{
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.tituloSection{
-    background-color: red;
-  }
   
+
+.preco{
+    font-family: 'Open Sans', serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: #fb1512;
+
+}
