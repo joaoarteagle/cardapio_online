@@ -1,0 +1,43 @@
+
+.nomeProduto{
+    font-family: 'Open Sans' ;
+    text-decoration: underline;
+    width: 45vw;
+    max-width: 45vw;
+    font-weight: bold;
+}
+
+.sections{
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.descricao{
+    width: 60vw;
+    font-size: 10px;
+}
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 15px;
+    height: 10vh;
+}
+
+.item:hover{
+    background-color: rgba(0, 0, 0, 0.292);
+}
+
+.nomeItemPreco{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.tituloSection{
+    background-color: red;
+  }
+  
