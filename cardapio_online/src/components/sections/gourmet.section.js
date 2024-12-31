@@ -1,9 +1,11 @@
-import Sections from "../items/sections.component";
+import Sections from "./sections.component";
 import Item from "../items/items.component";
+import Sub_Section from "./sub_sections.component";
 
-function GourmetSection(){
-    return(
-        <Sections nameSection={"GOURMET"}>
+function GourmetSection() {
+  return (
+    <Sections nameSection={"GOURMET"}>
+      <Sub_Section>
         <Item
           nome={"Fabuloso"}
           descricao={"Brioche, 2 Hamburguer, 2 Cheddar, tomate, alface e bacon"}
@@ -54,8 +56,9 @@ function GourmetSection(){
           descricao={"Brioche, molho especial, hamburguer, mussarela"}
           preco={"20,00"}
         ></Item>
-      </Sections>
-    );
+      </Sub_Section>
+    </Sections>
+  );
 }
 
 export default GourmetSection;
