@@ -1,14 +1,13 @@
 import "./App.css";
-import Sections from "./components/items/sections.component";
-import Item from "./components/items/items.component";
-import Sub_Section from "./components/sections/sub_sections.component";
 import GourmetSection from "./components/sections/gourmet.section";
 import PrensadosSection from "./components/sections/prensados.section";
+import CategoriesContainer from "./components/sections/categories/categories.container";
 function App() {
   return (
     <div>
+    <CategoriesContainer/>
     <GourmetSection/>
-    <PrensadosSection/>
+    <PrensadosSection id="lanchesPrensados"/>
     </div>
   );
 }

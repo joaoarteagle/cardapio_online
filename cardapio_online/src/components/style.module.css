@@ -44,8 +44,20 @@
 
 .preco{
     font-family: 'Open Sans', serif;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
     color: #fb1512;
 
+}
+
+.precoConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sifrao{
+    font-weight: bold;
+    font-size: smaller;
+    color: #fb1512;
 }

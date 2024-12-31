@@ -7,7 +7,10 @@ function Item({ nome, descricao, preco }){
         <p className={style.nomeItem}>{nome}</p>
       <p className={style.descricao}>{descricao}</p>
       </div>
-        <p className={style.preco}>R${preco}</p>
+      <div className={style.precoConteiner}>
+        <p className={style.sifrao}>R$</p>
+        <p className={style.preco}>{preco}</p>
+      </div>
     </div>
   );
 }
