@@ -1,16 +1,19 @@
 .nomeSection{
+    display: flex;
+    align-items: center;
     font-family: 'Stint Ultra Condensed', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 35px;
     background-color: #deb503;
+    padding: 10px;
 }
 
 .nomeItem{
     font-family: "Open Sans", serif;
     /* background-color: #fd0a07; */
-    width: 45vw;
-    max-width: 45vw;
+    width: 55vw;
+    max-width: 55vw;
     font-size: large;
     font-weight: 700;
     
@@ -26,7 +29,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    padding: 10px 15px;
+    padding: 15px;
     height: 10vh;
 }
 
@@ -34,7 +37,7 @@
     background-color: rgba(0, 0, 0, 0.292);
 }
 
-.nomeItemPreco{
+.nomeItemDescricao{
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -63,3 +66,10 @@
     color: #fb1512;
 }
 
+.up{
+    width: 20px;
+    transform: scaleY(-1);
+    position: absolute;
+    left: 90vw;
+
+}

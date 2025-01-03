@@ -1,9 +1,15 @@
 import style from '../style.module.css';
 
-function Sections({ nameSection, children }) {
+function Sections({ nameSection, children,id }) {
   return (
-    <section>
-      <p className={style.nomeSection}>{nameSection}</p>
+    <section id={id}>
+      <p className={style.nomeSection}>{nameSection}
+
+      <a href='#'>
+        <img src={`${process.env.PUBLIC_URL}/images/up.png`} className={style.up}/>
+      </a>
+
+      </p>
       <div>{children}</div>
     </section>
   );

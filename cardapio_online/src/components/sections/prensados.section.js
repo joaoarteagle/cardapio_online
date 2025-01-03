@@ -4,7 +4,7 @@ import Sub_Section from "./sub_sections.component";
 
 function PrensadosSection() {
   return (
-    <Sections nameSection={"Lanches Prensados"}>
+    <Sections nameSection={"Lanches Prensados"}  id="prensados">
       <Sub_Section>
         <Item
           nome={"Cachorro Q. Simples"}
