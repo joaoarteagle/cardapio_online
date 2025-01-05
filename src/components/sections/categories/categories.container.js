@@ -3,7 +3,7 @@ import style from "./styleCategory.module.css";
 
 function CategoriesContainer(){
     return(
-       <div className={style.categoriesContainer}>
+       <div className={style.categoriesContainer} id="categories">
         <Category categoria={"Gourmet"} imagem={"lancheGourmet2.png"} to={'gourmet'}/>
         <Category categoria={"Prensados"} imagem={"prensado2.png"} to={'prensados'}/>
         <Category categoria={"Porções"} imagem={"porções2.png"} to={'porcoes'}/>
