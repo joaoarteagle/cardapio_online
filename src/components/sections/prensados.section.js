@@ -1,11 +1,11 @@
 import Sections from "./sections.component";
 import Item from "../items/items.component";
-import Sub_Section from "./sub_sections.component";
+import SubSection from "./subSections.component";
 
 function PrensadosSection() {
   return (
     <Sections nameSection={"Lanches Prensados"} id="prensados">
-      <Sub_Section>
+      <SubSection>
         <Item
           nome={"Cachorro Q. Simples"}
           descricao={"Pão, alface, tomate, batata, 2 salsichas. "}
@@ -35,9 +35,9 @@ function PrensadosSection() {
           }
           preco={"20,00"}
         />
-      </Sub_Section>
+      </SubSection>
 
-      <Sub_Section>
+      <SubSection>
         <Item
           nome={"Cachorro Q. Caiuá"}
           descricao={
@@ -80,9 +80,9 @@ function PrensadosSection() {
           }
           preco={"19,00"}
         />
-      </Sub_Section>
+      </SubSection>
 
-      <Sub_Section>
+      <SubSection>
         <Item
           nome={"Caiuá Maromba"}
           descricao={"Pão, alface, tomate, batata, 3 ovos, hamburguer, frango."}
@@ -128,9 +128,9 @@ function PrensadosSection() {
           }
           preco={"19,00"}
         />
-      </Sub_Section>
+      </SubSection>
 
-      <Sub_Section>
+      <SubSection>
         <Item
           nome={"X Salada"}
           descricao={"Pão, alface, tomate, batata,  hamb, presunto, mussarela."}
@@ -176,9 +176,9 @@ function PrensadosSection() {
           }
           preco={"16,00"}
         />
-      </Sub_Section>
+      </SubSection>
 
-      {/* <Sub_Section>
+      <SubSection>
         <Item
           nome={"X Caiuá"}
           descricao={
@@ -228,7 +228,7 @@ function PrensadosSection() {
           }
           preco={"24,00"}
         />
-      </Sub_Section> */}
+      </SubSection>
     </Sections>
   );
 }

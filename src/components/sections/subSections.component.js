@@ -1,6 +1,6 @@
 
 
-function Sub_Section({children}){
+function SubSection({children}){
     return(
         <div>
         {children}
@@ -8,4 +8,4 @@ function Sub_Section({children}){
     );
 }
 
-export default Sub_Section;
+export default SubSection;
