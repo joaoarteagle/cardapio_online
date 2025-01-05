@@ -1,0 +1,29 @@
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.categoryImage{
+    width: 20vw;
+    height: 20vw;
+    padding: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: rgb(200, 223, 223);
+}
+
+.categoriesContainer{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: scroll;
+    gap: 15px;
+    
+
+}
+
+::-webkit-scrollbar{
+display: none;
+}

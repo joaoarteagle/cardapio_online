@@ -1,0 +1,39 @@
+.logo{
+    width: 15vw;
+    height: 15vw;
+    /* background-color: aliceblue; */
+     /* box-shadow: 10px 10px 15px 50px rgb(255, 255, 255) ; */
+    filter: drop-shadow(0px 0px 10px  rgb(255, 255, 255));
+    /* border-radius: 50%; */
+    
+}
+
+header{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: white 1px solid;
+}
+
+.containerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Stint Ultra Condensed', serif;
+    font-weight: lighter;
+    font-size: x-large;
+    color: #deb503;
+    
+}
+
+.stickyHeader {
+    position: sticky;
+    top: 0; /* Fixa o menu no topo */
+    background-color: #de0303;
+    color: white;
+    padding: px;
+    text-align: center;
+    z-index: 10; /* Garante que o menu esteja acima de outros elementos */
+  }

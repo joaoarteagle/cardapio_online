@@ -1,0 +1,88 @@
+.nomeSection{
+    display: flex;
+    align-items: center;
+    font-family: 'Stint Ultra Condensed', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    background-color: #deb503;
+    padding: 10px;
+}
+
+.nomeItem{
+    font-family: "Open Sans", serif;
+    /* background-color: #fd0a07; */
+    width: 55vw;
+    max-width: 55vw;
+    font-size: large;
+    font-weight: 700;
+    
+}
+
+.descricao{
+    width: 60vw;
+    font-size: 10px;
+}
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 15px;
+    height: 10vh;
+}
+
+.item:hover{
+    background-color: rgba(0, 0, 0, 0.292);
+}
+
+.nomeItemDescricao{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  
+
+.preco{
+    font-family: 'Open Sans', serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #fb1512;
+
+}
+
+.precoConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sifrao{
+    font-weight: bold;
+    font-size: smaller;
+    color: #fb1512;
+}
+
+.up{
+    width: 20px;
+    transform: scaleY(-1);
+    position: absolute;
+    left: 90vw;
+
+}
+
+
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 40px; /* Fixa o menu no topo */
+    right: 5vw;
+    z-index: 10; 
+    cursor: pointer;
+    /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5) ; */
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+  }
