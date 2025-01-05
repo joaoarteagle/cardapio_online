@@ -1,6 +1,5 @@
 import Sections from "./sections.component";
 import Sub_Sections from "./sub_sections.component"
-import Item from "../items/items.component"
 
 function PorcoesSection(){
     return(
