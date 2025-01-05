@@ -178,7 +178,7 @@ function PrensadosSection() {
         />
       </Sub_Section>
 
-      <Sub_Section>
+      {/* <Sub_Section>
         <Item
           nome={"X Caiuá"}
           descricao={
@@ -228,7 +228,7 @@ function PrensadosSection() {
           }
           preco={"24,00"}
         />
-      </Sub_Section>
+      </Sub_Section> */}
     </Sections>
   );
 }
