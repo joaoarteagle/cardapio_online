@@ -16,13 +16,19 @@ jobs:
           node-version: '16.x'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --verbose
 
+
+      - name: Debug Node and NPM versions
+        run: |
+          node -v
+          npm -v
+
+      - name: List project files
+        run: ls -R
 
       - name: Build web-app
-        run: |
-            node --max_old_space_size=4096 node_modules/react-scripts/scripts/build.js
-            npm run build
+        run: npm run build --verbose
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
