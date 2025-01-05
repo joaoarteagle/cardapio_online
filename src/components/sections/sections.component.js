@@ -6,7 +6,7 @@ function Sections({ nameSection, children,id }) {
       <p className={style.nomeSection}>{nameSection}
 
       <a href='#categories'>
-        <img src={`${process.env.PUBLIC_URL}/images/up.png`} className={style.up}/>
+        <img src={`${process.env.PUBLIC_URL}/images/up.png`} className={style.up} alt='up-set'/>
       </a>
 
       </p>
