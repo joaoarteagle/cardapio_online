@@ -9,6 +9,7 @@ function HeaderSection() {
       <img
         src={`${process.env.PUBLIC_URL}/images/logo.png`}
         className={style.logo}
+        alt='logoLanchonete'
       />
     </header>
   );
