@@ -1,6 +1,6 @@
 import style from '../style.module.css';
 
-function Sections({ nameSection, children,id }) {
+function Sections({ nameSection, children, id }) {
   return (
     <section id={id}>
       <p className={style.nomeSection}>{nameSection}

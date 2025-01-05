@@ -2,9 +2,9 @@
 
 function Sub_Section({children}){
     return(
-        <>
+        <div>
         {children}
-        </>
+        </div>
     );
 }
 

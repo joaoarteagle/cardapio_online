@@ -4,7 +4,7 @@ import Sub_Section from "./sub_sections.component";
 
 function PrensadosSection() {
   return (
-    <Sections nameSection={"Lanches Prensados"}  id="prensados">
+    <Sections nameSection={"Lanches Prensados"} id="prensados">
       <Sub_Section>
         <Item
           nome={"Cachorro Q. Simples"}
@@ -179,13 +179,55 @@ function PrensadosSection() {
       </Sub_Section>
 
       <Sub_Section>
-        <Item nome={"X Caiuá"} descricao={"Pão, alface, tomate, 2 salsichas, hamb, calabresa, bacon, 2 presunto, 2 mussarela."} preco={"24,00"}/>
-        <Item nome={"X Baconlesa"} descricao={"Pão, alface, tomate, hamb, calabresa, bacon, presunto, mussarela."} preco={"24,00"}/>
-        <Item nome={"X Frangolesa"} descricao={"Pão, alface, tomate, hamb, calabresa, frango, presunto, mussarela."} preco={"24,00"}/>
-        <Item nome={"X Frango com Bacon"} descricao={"Pão, alface, tomate, hamb, frango, bacon, presunto, mussarela."} preco={"24,00"}/>
-        <Item nome={"X Caiuá"} descricao={"Pão, alface, tomate, 2 salsichas, hamb, calabresa, bacon, 2 presunto, 2 mussarela."} preco={"24,00"}/>
-        <Item nome={"X Caiuá"} descricao={"Pão, alface, tomate, 2 salsichas, hamb, calabresa, bacon, 2 presunto, 2 mussarela."} preco={"24,00"}/>
-        <Item nome={"X Caiuá"} descricao={"Pão, alface, tomate, 2 salsichas, hamb, calabresa, bacon, 2 presunto, 2 mussarela."} preco={"24,00"}/>
+        <Item
+          nome={"X Caiuá"}
+          descricao={
+            "Pão, alface, tomate, 2 salsichas, hamb, calabresa, bacon, 2 presunto, 2 mussarela."
+          }
+          preco={"24,00"}
+        />
+        <Item
+          nome={"X Baconlesa"}
+          descricao={
+            "Pão, alface, tomate, hamb, calabresa, bacon, presunto, mussarela."
+          }
+          preco={"24,00"}
+        />
+        <Item
+          nome={"X Frangolesa"}
+          descricao={
+            "Pão, alface, tomate, hamb, calabresa, frango, presunto, mussarela."
+          }
+          preco={"24,00"}
+        />
+        <Item
+          nome={"X Frango com Bacon"}
+          descricao={
+            "Pão, alface, tomate, hamb, frango, bacon, presunto, mussarela."
+          }
+          preco={"24,00"}
+        />
+        <Item
+          nome={"X Caiuá"}
+          descricao={
+            "Pão, alface, tomate, 2 salsichas, hamb, calabresa, bacon, 2 presunto, 2 mussarela."
+          }
+          preco={"24,00"}
+        />
+        <Item
+          nome={"X Caiuá"}
+          descricao={
+            "Pão, alface, tomate, 2 salsichas, hamb, calabresa, bacon, 2 presunto, 2 mussarela."
+          }
+          preco={"24,00"}
+        />
+        <Item
+          nome={"X Caiuá"}
+          descricao={
+            "Pão, alface, tomate, 2 salsichas, hamb, calabresa, bacon, 2 presunto, 2 mussarela."
+          }
+          preco={"24,00"}
+        />
       </Sub_Section>
     </Sections>
   );
