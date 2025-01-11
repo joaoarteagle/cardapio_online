@@ -9,6 +9,7 @@ import EsfihasSection from "./components/sections/esfihas.section";
 import BebidasSection from "./components/sections/bebidas.section";
 import WhatsappIcon from "./components/items/whatsapp.icon";
 function App() {
+
   return (
     <div>
     <HeaderSection/>
