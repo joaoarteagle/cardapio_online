@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cardapio_online/static/css/main.742da138.css",
-    "main.js": "/cardapio_online/static/js/main.470a17b8.js",
+    "main.css": "/cardapio_online/static/css/main.92050fcf.css",
+    "main.js": "/cardapio_online/static/js/main.2e693671.js",
     "index.html": "/cardapio_online/index.html",
-    "main.742da138.css.map": "/cardapio_online/static/css/main.742da138.css.map",
-    "main.470a17b8.js.map": "/cardapio_online/static/js/main.470a17b8.js.map"
+    "main.92050fcf.css.map": "/cardapio_online/static/css/main.92050fcf.css.map",
+    "main.2e693671.js.map": "/cardapio_online/static/js/main.2e693671.js.map"
   },
   "entrypoints": [
-    "static/css/main.742da138.css",
-    "static/js/main.470a17b8.js"
+    "static/css/main.92050fcf.css",
+    "static/js/main.2e693671.js"
   ]
 }
