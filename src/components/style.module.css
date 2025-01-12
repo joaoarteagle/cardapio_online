@@ -97,6 +97,8 @@
     position: absolute;
     left: 40vw;
     border: none;
+    border-radius: none;
     border-bottom: 1px solid #ffffff ;
     background-color: #deb503;
+    color: black;
   }
