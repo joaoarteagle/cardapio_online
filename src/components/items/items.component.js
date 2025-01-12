@@ -1,6 +1,9 @@
 import style from "../style.module.css";
 
 function Item({ nome, descricao, preco }){
+  
+
+
   return (
     <div className={style.item}>
       <div className={style.nomeItemDescricao}>
